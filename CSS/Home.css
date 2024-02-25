@@ -1,0 +1,599 @@
+body{
+    margin:auto;
+    background-color: rgb(231, 230, 230);
+}
+
+a{
+    text-decoration:none
+}
+
+header{
+    height:60px;
+    background-color: #3b2632;
+}
+
+#brand{
+    float: left;
+    color:white;
+    font-size: 30px;
+    margin-top:1%;
+    margin-left:1%
+}
+
+
+#quick-links {
+    float: right;
+    margin-top: 10px;
+
+}
+
+#quick-links a {
+    padding: 10px;
+    color: white;
+    background-color: #3b2632;
+}
+
+#quick-links button {
+    color: white;
+    background-color: #3b2632;
+    border-radius: 10px;
+    height: 25px;
+    font-weight: bolder;
+    height: 37px;
+}
+
+#quick-links button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.socialLogo{
+    height:50px
+}
+
+#search{
+    height:450px;
+    background-image: url('wallpaper.pnghttps://i.ibb.co/NVQxPB6/food-Wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    background-position: cover;
+}
+
+.logo{
+    height:150px;
+    width: 150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 40%;
+    margin-top: 2%;
+    position: absolute;
+    font-size:90px;
+    animation: revolve 10s infinite;
+}
+
+@keyframes revolve{
+    0%{
+        margin-left:2%;
+        transform: rotate(30deg);
+        
+    }
+    25%{
+        margin-left:20%;
+        transform: rotate(90deg);
+       
+    }
+    50%{
+        margin-left:45%;
+        transform: rotate(180deg);
+        
+    }
+    75%{
+        margin-left:80%;
+        transform: rotate(270deg);
+       
+    }
+    100%{
+        margin-left:45%;
+        transform: rotate(360deg);
+        
+    }
+}
+
+.logo > span{
+    margin-left: 20%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+#heading{
+    font-size:70px;
+    font-weight: bolder;
+    color:rgb(245, 30, 84);
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+    margin-left: 27%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.dropdown{
+    height:60px;
+    width:50%;
+    /* border:2px solid white; */
+    margin-left: 27%;
+    margin-top: 22%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+}
+
+#restSelect{
+    width:59%;
+}
+
+#quickSearch{
+    /* height:600px; */
+    /* border:5px dotted blue; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+    
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size:30px;
+    font-weight:bold;
+    display: block;
+    margin-left: 2%;
+    color:rgb(245, 30, 84);
+}
+
+/* .quickHeading:hover{
+    font-size:45px;
+    color:green;
+    cursor: pointer;
+} */
+
+.quickSubHeading{
+    font-size:20px;
+    color:gray;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+#tileBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tileContainer{
+    height: 180px;
+    width:30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(240, 191, 191);
+    /* box-shadow: 10px 20px 10px #3b2632; */
+    /* animation: dance 15s infinite; */
+}
+
+/* @keyframes dance{
+    0%{
+        transform:rotate(-5deg)
+    }
+    25%{
+        transform:rotate(0deg)
+    }
+    40%{
+        transform:scale(1.1)
+    }
+    50%{
+        transform:rotate(5deg)
+    }
+    75%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(-5deg)
+    }
+    
+} */
+
+.tileContainer:hover{
+    transform:scale(1.1)
+    /* transform:skewY(30deg);
+    transform:rotate(30deg) */
+    /* transform:translate(100px, 200px) */
+}
+
+.tileComponent1{
+    width:52%;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.tileComponent2{
+    width:45%;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.compHeading{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: -10px;
+}
+
+.compHeading > a{
+    color:#3b2632 !important;
+}
+
+.compSubHeading{
+    font-size: 20px;
+    color:gray
+}
+
+footer{
+    /* height: 80px; */
+    /* border:10px double orange */
+    background-color: #3b2632;
+    text-align: center;
+    color: white
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
+
+@media screen and (max-width:1600px){
+    /* body{
+        background-color: rgb(241, 168, 168);
+    } */
+}
+
+@media screen and (max-width:1400px){
+    /* body{
+        background-color: rgb(241, 226, 168);
+    } */
+    #heading{
+        font-size:50px;
+        color:white;
+        margin-left: 30%;
+        margin-top: 15%;
+        position: absolute;
+    }
+    .dropdown{
+        height:60px;
+        width:50%;
+        /* border:2px solid white; */
+        margin-left: 25%;
+        margin-top: 22%;
+        position: absolute;
+    }
+    
+}
+
+
+@media screen and (max-width:1200px){
+    /* body{
+        background-color: rgb(207, 241, 168);
+    } */
+    #heading{
+        font-size:50px;
+        color:white;
+        margin-left: 25%;
+        margin-top: 20%;
+        position: absolute;
+    }
+    .dropdown{
+        height:60px;
+        width:50%;
+        /* border:2px solid white; */
+        margin-left: 23%;
+        margin-top: 26%;
+        position: absolute;
+    }
+    select{
+        height:60px;
+        width:40%;
+        font-size:18px;
+        text-align: center;
+    }
+    
+    #restSelect{
+        width:59%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    /* body{
+        background-color: rgb(168, 241, 209);
+    } */
+    #heading{
+        font-size:50px;
+        color:white;
+        margin-left: 25%;
+        margin-top: 20%;
+        position: absolute;
+    }
+    .dropdown{
+        height:60px;
+        width:60%;
+        /* border:2px solid white; */
+        margin-left: 23%;
+        margin-top: 26%;
+        position: absolute;
+    }
+    select{
+        height:60px;
+        width:40%;
+        font-size:16px;
+        text-align: center;
+    }
+    
+    #restSelect{
+        width:59%;
+    }
+}
+
+@media screen and (max-width:1021px){
+    /* body{
+        background-color: rgb(168, 208, 241);
+    } */
+    .tileContainer{
+        width:45%;
+    }
+    #heading{
+        font-size:50px;
+        color:white;
+        margin-left: 20%;
+        margin-top: 25%;
+        position: absolute;
+    }
+    .dropdown{
+        height:60px;
+        width:70%;
+        /* border:2px solid white; */
+        margin-left: 18%;
+        margin-top: 32%;
+        position: absolute;
+    }
+    select{
+        height:50px;
+        width:40%;
+        font-size:14px;
+        text-align: center;
+    }
+    
+    #restSelect{
+        width:59%;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    /* body{
+        background-color: rgb(195, 168, 241);
+    } */
+    #heading{
+        font-size:50px;
+        color:white;
+        margin-left: 15%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    .dropdown{
+        height:60px;
+        width:75%;
+        /* border:2px solid white; */
+        margin-left: 13%;
+        margin-top: 40%;
+        position: absolute;
+    }
+    select{
+        height:40px;
+        width:39%;
+        font-size:12px;
+        text-align: center;
+    }
+    
+    #restSelect{
+        width:59%;
+    }
+
+    .logo{
+        height:135px;
+        width: 135px;
+        font-size:80px;
+        margin-left: 40%;
+        animation: revolve 10s infinite;
+    }
+    @keyframes revolve{
+        0%{
+            margin-left:2%;
+            transform: rotate(30deg);
+        }
+        25%{
+            margin-left:20%;
+            transform: rotate(90deg);
+        }
+        50%{
+            margin-left:40%;
+            transform: rotate(180deg);
+        }
+        75%{
+            margin-left:70%;
+            transform: rotate(270deg);
+        }
+        100%{
+            margin-left:40%;
+            transform: rotate(360deg);
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    /* body{
+        background-color: rgb(241, 168, 234);
+    } */
+
+    .tileContainer{
+        width:90%;
+    }
+
+    #heading{
+        font-size:30px;
+        color:white;
+        margin-left: 20%;
+        margin-top: 35%;
+        position: absolute;
+    }
+    .dropdown{
+        height:50px;
+        width:80%;
+        /* border:2px solid white; */
+        margin-left: 15%;
+        margin-top: 43%;
+        position: absolute;
+    }
+    select{
+        height:50px;
+        width:30%;
+        font-size:12px;
+        text-align: center;
+    }
+    
+    #restSelect{
+        width:49%;
+    }
+
+    .logo{
+        height:120px;
+        width: 120px;
+        font-size:70px;
+        margin-left: 33%;
+        animation: revolve 10s infinite;
+    }
+
+    @keyframes revolve{
+        0%{
+            margin-left:2%;
+            transform: rotate(30deg);
+        }
+        25%{
+            margin-left:20%;
+            transform: rotate(90deg);
+        }
+        50%{
+            margin-left:33%;
+            transform: rotate(180deg);
+        }
+        75%{
+            margin-left:70%;
+            transform: rotate(270deg);
+        }
+        100%{
+            margin-left:33%;
+            transform: rotate(360deg);
+        }
+    }
+   
+}
+
+
+@media screen and (max-width:510px){
+    /* body{
+        background-color: rgb(7, 233, 120);
+    } */
+
+    .tileContainer{
+        width:90%;
+    }
+
+    #heading{
+        font-size:30px;
+        color:white;
+        margin-left: 20%;
+        margin-top: 35%;
+        position: absolute;
+    }
+
+    .dropdown{
+        height:50px;
+        width:90%;
+        /* border:2px solid white; */
+        margin-left: 15%;
+        margin-top: 45%;
+        position: absolute;
+    }
+    select{
+        height:50px;
+        width:34%;
+        font-size:10px;
+        text-align: center;
+    }
+    
+    #restSelect{
+        width:45%;
+    }
+
+    .logo{
+        height:100px;
+        width: 100px;
+        font-size:60px;
+        margin-left: 30%;
+        animation: revolve 10s infinite;
+    }
+    
+    @keyframes revolve{
+        0%{
+            margin-left:2%;
+            transform: rotate(30deg);
+        }
+        25%{
+            margin-left:20%;
+            transform: rotate(90deg);
+        }
+        50%{
+            margin-left:30%;
+            transform: rotate(180deg);
+        }
+        75%{
+            margin-left:70%;
+            transform: rotate(270deg);
+        }
+        100%{
+            margin-left:30%;
+            transform: rotate(360deg);
+        }
+    }
+   
+}

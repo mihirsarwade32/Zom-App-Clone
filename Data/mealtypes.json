@@ -1,0 +1,38 @@
+[
+    {
+        "mealtype_id": 1,
+        "mealtype": "Breakfast",
+        "content": "Starting the day mindfully with a breakfast that fuels both body and mind",
+        "meal_image": "https://i.ibb.co/JyJdcSK/break.jpg"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "Lunch",
+        "content": "Take a break and have some lunch, it's a beautiful day",
+        "meal_image": "https://i.ibb.co/HCkSLGJ/lunch.jpg"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Dinner",
+        "content": "Feast your eyes on this delicious dinner spread",
+        "meal_image": "https://i.ibb.co/j8yGZnh/dinner.jpg"
+    },
+    {
+        "mealtype_id": 4,
+        "mealtype": "Snacks",
+        "content": "There's no party without snacks, Serving up a slice of heaven",
+        "meal_image": "https://i.ibb.co/hsLF5D9/snacks.jpg"
+    },
+    {
+        "mealtype_id": 5,
+        "mealtype": "Drinks",
+        "content": "Making memories, one drink at a time",
+        "meal_image": "https://i.ibb.co/rMsCN4q/drinks.jpg"
+    },
+    {
+        "mealtype_id": 6,
+        "mealtype": "NightLife",
+        "content": "Cheers to the nights we'll never forget and the friends we'll always remember.",
+        "meal_image": "https://i.ibb.co/q1fC2jW/nightlife.jpg"
+    }
+]
